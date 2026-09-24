@@ -7,8 +7,8 @@ public class foreachLoop{
         java.util.Random r = new java.util.Random();
         
         for(int[] row:arr){
-            for(int j=0;j<row.length;j++){
-                row[j]=r.nextInt(100);
+            for(int j = 0; j < row.length; j++) {
+                row[j] = r.nextInt(100);
             }
         }
 
