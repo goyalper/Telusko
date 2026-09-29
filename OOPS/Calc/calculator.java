@@ -38,5 +38,5 @@ public class calculator {
     System.out.println("Result Modulus : "+O1.mod());
 
 }
-kk
+
 }
