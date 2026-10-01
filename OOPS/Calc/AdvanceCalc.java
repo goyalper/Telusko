@@ -5,6 +5,9 @@ class AdvanceFunc extends Calca{
     public double power(){
         return Math.pow(a,b);
     }
+    public void greet(){
+        System.out.println("Hello, User! Welcome to Advance Calculator");
+    }
 }
 
 public class AdvanceCalc {
@@ -13,5 +16,6 @@ public class AdvanceCalc {
         
     AdvanceFunc O1 = new AdvanceFunc(13,20);
     System.out.println(O1.add());
+    O1.greet();
 }
 }
