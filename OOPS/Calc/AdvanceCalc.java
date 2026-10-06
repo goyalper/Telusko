@@ -20,6 +20,7 @@ public class AdvanceCalc {
     AdvanceFunc O1 = new AdvanceFunc(13,20);
     System.out.println(O1.add());
     O1.greet();
+    System.out.println("Hi There");
 
     O1.display();
 }
