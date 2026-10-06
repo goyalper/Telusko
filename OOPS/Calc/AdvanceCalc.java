@@ -7,6 +7,7 @@ class AdvanceFunc extends Calca{
     }
     public void greet(){
         System.out.println("Hello, User! Welcome to Advance Calculator");
+        System.out.println("The value of a was: " + a+" and the value of b was: " + b);
     }
     public void display(){
         System.out.println("The value of a is: " + a+" and the value of b is: " + b);
@@ -20,8 +21,6 @@ public class AdvanceCalc {
     AdvanceFunc O1 = new AdvanceFunc(13,20);
     System.out.println(O1.add());
     O1.greet();
-    System.out.println("Hi There");
 
-    O1.display();
 }
 }
