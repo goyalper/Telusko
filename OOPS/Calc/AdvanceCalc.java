@@ -7,7 +7,7 @@ class AdvanceFunc extends Calca{
     }
     public void greet(){
         System.out.println("Hello, User! Welcome to Advance Calculator");
-        System.out.println("The value of a was: " + a+" and the value of b was: " + b);
+        System.out.println("by Umesh");
     }
     public void display(){
         System.out.println("The value of a is: " + a+" and the value of b is: " + b);
