@@ -22,7 +22,6 @@ public class AdvanceCalc {
     System.out.println(O1.add());
     O1.greet();
     O1.display();
-    O1.greet();
 
 }
 }
